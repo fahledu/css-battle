@@ -4,21 +4,26 @@ body {
 }
 
 .container {
-    margin: 10px;
+    margin: 10px auto;
     width: 400px;
+    max-width: 400px;
     height: 300px;
+    max-height: 300px;
     flex-grow: 1;
     flex-basis: 200;
+}
+
+.default {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*  */
 
 .card-20-03-2024 {
-    height: 100%;
     background: #42230C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .card-20-03-2024>div {
@@ -52,11 +57,7 @@ body {
 /*  */
 
 .card-19-03-2024 {
-    height: 100%;
     background: #E0DBF0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .card-19-03-2024>div {
@@ -95,4 +96,191 @@ body {
     border-right: solid #857DA1 5px;
     width: 170px;
     height: 170px;
+}
+
+/*  */
+
+.card-18-03-2024 {
+    background: #C31C1D;
+
+}
+
+.card-18-03-2024>div {
+    width: 200px;
+    height: 160px;
+    background: #660301;
+    clip-path: polygon(1% 100%,
+            25% 100%,
+            25% 75%,
+            42% 75%,
+            42% 50%,
+            58% 50%,
+            58% 75%,
+            75% 75%,
+            75% 100%,
+            99% 100%,
+            74.5% 0,
+            25.5% 0);
+}
+
+/*  */
+
+.card-15-03-2024 {
+    background: #FFFFCD
+}
+
+.card-15-03-2024>div {
+    position: relative;
+    top: -100px;
+    width: 67px;
+    height: 160px;
+    border-bottom: 160px solid #E78320;
+    border-left: 49px solid transparent;
+    border-right: 46px solid transparent
+}
+
+.card-15-03-2024>div:before,
+.card-15-03-2024>div:after {
+    content: '';
+    position: absolute;
+    border-radius: 50px;
+    height: 20px
+}
+
+.card-15-03-2024>div:before {
+    top: 320px;
+    left: -67px;
+    width: 200px;
+    background-color: #EDAF38;
+}
+
+.card-15-03-2024>div:after {
+    top: 340px;
+    left: -87px;
+    width: 240px;
+    background-color: #F1D31D;
+}
+
+/*  */
+
+.card-14-03-2024 {
+    background: #7E2926;
+}
+
+.card-14-03-2024>div {
+    position: relative;
+    width: 150px;
+    height: 100%;
+    background: #FEFF92;
+}
+
+.card-14-03-2024>div:before {
+    content: '';
+    position: absolute;
+    width: 190px;
+    height: 100%;
+    background: #D2934B;
+    clip-path: polygon(0 0, 0 100%, 40% 66%, 40% 34%);
+}
+
+.card-14-03-2024>div:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    width: 120px;
+    height: 100%;
+    background: #DEB365;
+    clip-path: polygon(100% 0, 100% 100%, 37% 66%, 37% 34%);
+}
+
+/*  */
+
+.card-13-03-2024 {
+    background: #6592CF;
+    overflow: hidden;
+}
+
+.card-13-03-2024>div {
+    position: relative;
+    top: -100px;
+    width: 120px;
+    height: 262px;
+    border: 40px solid #243D83;
+    border-radius: 100px;
+}
+
+.card-13-03-2024>div:after {
+    content: '';
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    border: 20px solid #243D83;
+    border-radius: 100px;
+    height: 100%;
+}
+
+/*  */
+
+.card-11-03-2024 {
+    background: #FAD3E5;
+  overflow: hidden;
+}
+
+.card-11-03-2024>[a],
+.card-11-03-2024>[b] {
+    position: relative;
+}
+
+.card-11-03-2024>[a],
+.card-11-03-2024>[a]:after,
+.card-11-03-2024>[b],
+.card-11-03-2024>[b]:after,
+.card-11-03-2024>[b]:before {
+    border: solid#8B0051 10px;
+}
+
+.card-11-03-2024>[a] {
+    height: 100%;
+    left: 80px;
+}
+
+.card-11-03-2024>[a]:after {
+    border-color: #FAD3E5;
+    top: 90px;
+    left: -10px;
+    height: 80px;
+    z-index: 1;
+}
+
+.card-11-03-2024>[a]:after,
+.card-11-03-2024>[b]:after,
+.card-11-03-2024>[b]:before {
+    content: '';
+    position: absolute;
+}
+
+.card-11-03-2024>[b],
+.card-11-03-2024>[b]:after,
+.card-11-03-2024>[b]:before {
+    border-width: 20px;
+}
+
+.card-11-03-2024>[b] {
+    width: 100px;
+    height: 20px;
+    top: -50px
+}
+
+.card-11-03-2024>[b]:after {
+    width: 180px;
+    height: 20px;
+    left: -60px;
+    top: 20px
+}
+
+.card-11-03-2024>[b]:before {
+    width: 260px;
+    height: 20px;
+    left: -100px;
+    top: 60px;
 }
