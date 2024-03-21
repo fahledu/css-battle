@@ -1,3 +1,4 @@
+/* ////////////////////////////////////// */
 body {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +20,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* ////////////////////////////////////// */
 
 /*  */
 
@@ -545,7 +548,7 @@ body {
     background: #F48B26
 }
 
-.card-10-3-2024 > div {
+.card-10-3-2024>div {
     background: #fff;
     width: 180px;
     height: 60%;
@@ -553,7 +556,7 @@ body {
     top: 20%;
 }
 
-.card-10-3-2024 > div:after {
+.card-10-3-2024>div:after {
     content: '';
     width: 58px;
     height: 58px;
@@ -565,7 +568,7 @@ body {
     box-shadow: 0 0 0 21px #F48B26;
 }
 
-.card-10-3-2024 > div:before {
+.card-10-3-2024>div:before {
     content: '';
     width: 30px;
     height: 30px;
@@ -575,4 +578,38 @@ body {
     top: -44%;
     left: 42%;
     z-index: 1;
+}
+
+/*  */
+.card-21-3-2024  {
+    background: #301E53;
+}
+
+.card-21-3-2024  [a] {
+    margin: 0 42px 10px;
+    width: 300px;
+    height: 40px;
+    background: #766D94;
+    clip-path: polygon(0 0, 100% 0, 86.5% 100%, 13.5% 100%);
+}
+
+.card-21-3-2024  [b] {
+    margin-left: 66.6px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+.card-21-3-2024  [b1] {
+    width: 70px;
+    height: 50px;
+    background: #A6A0BE;
+}
+
+.card-21-3-2024  [b2] {
+    width: 90px;
+    height: 100px;
+    background: #A6A0BE;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 55%, 50% 100%, 0% 55%);
 }
