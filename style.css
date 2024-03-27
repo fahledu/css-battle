@@ -753,3 +753,57 @@ body {
     height: 100px;
     clip-path: polygon(0 0, 100% 0, 100% 20%, 50% 90%, 50% 90%, 0 20%)
 }
+
+/*  */
+
+.card-27-3-2024 {
+    background: #F59426
+}
+
+.card-27-3-2024 [a],
+.card-27-3-2024 [b] {
+    position: absolute;
+    height: 150px;
+    width: 30px;
+    background: #fff;
+    transform: rotate(-30deg);
+}
+
+.card-27-3-2024 [b] {
+    transform: rotate(30deg);
+}
+
+.card-27-3-2024 [c] {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #F59426;
+    border-radius: 50px;
+}
+
+.card-27-3-2024 [d] {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    background: #fff;
+}
+
+.card-27-3-2024 [d]:before {
+    content: '';
+    position: absolute;
+    left: -65px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50px;
+}
+
+.card-27-3-2024 [d]:after {
+    content: '';
+    position: absolute;
+    right: -65px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50px;
+}
