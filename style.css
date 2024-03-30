@@ -1031,3 +1031,33 @@ body {
 .card-12-3-2024 [b]:after {
     top: 200px;
 }
+
+/*  */
+
+.card-30-3-2024 {
+    background: #DBBEDF;
+    margin: 0;
+}
+
+.card-30-3-2024 div {
+    margin: 90px auto;
+    width: 90px;
+    height: 120px;
+    background: #81008F;
+    box-shadow: 0 -100px #DBBEDF,
+        80px -120px #81008F,
+        80px -100px #DBBEDF,
+        80px -80px #81008F,
+        80px -60px #DBBEDF,
+        80px -40px #81008F,
+        80px -20px #DBBEDF,
+        80px 0 #81008F,
+        0 100px #DBBEDF,
+        -80px 120px #81008F,
+        -80px 100px #DBBEDF,
+        -80px 80px #81008F,
+        -80px 60px #DBBEDF,
+        -80px 40px #81008F,
+        -80px 20px #DBBEDF,
+        -80px 0 #81008F;
+}
