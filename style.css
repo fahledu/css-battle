@@ -1061,3 +1061,14 @@ body {
         -80px 20px #DBBEDF,
         -80px 0 #81008F;
 }
+
+/*  */
+
+.card-1-4-2024{background: #0A6190}
+  .card-1-4-2024 div {
+    margin: 50px auto;
+    width: 290px;
+    height: 200px;
+    background: #EFF8FE;
+  clip-path: polygon(0% 50%, 7% 40%, 24% 40%, 50% 0%, 76% 40%, 93% 40%, 100% 50%, 93% 60%, 76% 60%, 50% 100%, 24% 60%, 7% 60%);
+  }
