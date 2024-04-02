@@ -1064,11 +1064,50 @@ body {
 
 /*  */
 
-.card-1-4-2024{background: #0A6190}
-  .card-1-4-2024 div {
+.card-1-4-2024 {
+    background: #0A6190
+}
+
+.card-1-4-2024 div {
     margin: 50px auto;
     width: 290px;
     height: 200px;
     background: #EFF8FE;
-  clip-path: polygon(0% 50%, 7% 40%, 24% 40%, 50% 0%, 76% 40%, 93% 40%, 100% 50%, 93% 60%, 76% 60%, 50% 100%, 24% 60%, 7% 60%);
-  }
+    clip-path: polygon(0% 50%, 7% 40%, 24% 40%, 50% 0%, 76% 40%, 93% 40%, 100% 50%, 93% 60%, 76% 60%, 50% 100%, 24% 60%, 7% 60%);
+}
+
+/*  */
+
+.card-2-4-2024 {
+    height: 100%;
+    background: #90D3A6;
+    margin: 0;
+}
+
+.card-2-4-2024 [a] {
+    position: relative;
+    top: 20px;
+    height: 200px;
+    clip-path: polygon(0 42.5%, 31.25% 42.5%, 31.25% 15%, 68.75% 15%, 68.75% 42.5%, 100% 42.5%, 100% 57.5%, 68.8% 57.5%, 68.8% 85%, 31.3% 85%, 31.3% 57.5%, 0 57.5%);
+    box-shadow: inset 155px 0 0 #194E29, inset 185px 0 0 #90D3A6, inset 215px 0 0 #194E29, inset 245px 0 0 #90D3A6, inset 400px 0 0 #194E29;
+}
+
+.card-2-4-2024 [b] {
+    position: relative;
+    top: 50px;
+    left: 95px;
+    border-radius: 50px;
+    background: #194E29;
+    width: 210px;
+    height: 30px;
+}
+
+.card-2-4-2024 [b]:after {
+    content: '';
+    position: absolute;
+    top: 170px;
+    border-radius: 50px;
+    background: #194E29;
+    width: 210px;
+    height: 30px;
+}
