@@ -1158,3 +1158,55 @@ body {
     background: #F48B26;
     clip-path: polygon(7% 0, 18% 0, 50% 43%, 82% 0, 92.5% 0, 68.7% 32%, 68.7% 100%, 61.3% 100%, 61.3% 42%, 53.7% 52%, 53.7% 100%, 46.2% 100%, 46.2% 52%, 38.7% 42%, 38.7% 100%, 31.2% 100%, 31.2% 32%);
 }
+
+/*  */
+
+.card-5-4-2024 {
+    background: #F16B4A;
+    box-shadow: inset 187px 136px #631E1D, inset -187px -136px #631E1D;
+
+}
+
+.card-5-4-2024 [a] {
+    position: relative;
+    top: 30px;
+    left: 185px;
+    width: 135px;
+    height: 75px;
+    background: #631E1D;
+    box-shadow: inset 15px -15px #F16B4A, inset 45px -15px #631E1D, inset 60px -15px #F16B4A;
+
+}
+
+.card-5-4-2024 [b] {
+    position: relative;
+    top: 90px;
+    left: 215px;
+    width: 135px;
+    height: 75px;
+    background: #631E1D;
+    box-shadow: inset 15px -15px #F16B4A, inset 45px -15px #631E1D, inset 60px -15px #F16B4A;
+    rotate: 90deg
+}
+
+.card-5-4-2024 [c] {
+    position: relative;
+    top: 45px;
+    left: 80px;
+    width: 135px;
+    height: 75px;
+    background: #631E1D;
+    box-shadow: inset 15px -15px #F16B4A, inset 45px -15px #631E1D, inset 60px -15px #F16B4A;
+    rotate: -180deg
+}
+
+.card-5-4-2024 [d] {
+    position: relative;
+    top: -165px;
+    left: 50px;
+    width: 135px;
+    height: 75px;
+    background: #631E1D;
+    box-shadow: inset 15px -15px #F16B4A, inset 45px -15px #631E1D, inset 60px -15px #F16B4A;
+    rotate: -90deg
+}
