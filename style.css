@@ -1210,3 +1210,54 @@ body {
     box-shadow: inset 15px -15px #F16B4A, inset 45px -15px #631E1D, inset 60px -15px #F16B4A;
     rotate: -90deg
 }
+
+/*  */
+
+.card-8-4-2024{background: #010038; margin: 0}  
+.card-8-4-2024 div{
+  position: relative;
+  background: #857DA1;
+  width: 30px;
+  height:95px;
+}
+  .card-8-4-2024 [a]{
+    left: 35px
+  }
+  .card-8-4-2024 [b]{
+  left: 185px;
+  top: -95px;
+  }
+
+  .card-8-4-2024 [c]{
+  left: 335px;
+    top: -190px;
+  }
+
+.card-8-4-2024  [d]{
+    top: -79px;
+    left: 110px
+  }
+  .card-8-4-2024 [e]{
+        top: -174px;
+        left: 260px;
+  }
+.card-8-4-2024 div:after{
+  content:'';
+  position: absolute;
+  top: 90px;
+  left: -15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background:#857DA1;
+}
+.card-8-4-2024 div:before{
+  content: '';
+  position:absolute;
+  top: -56px;
+  left: -15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background:#857DA1;
+}
