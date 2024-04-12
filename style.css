@@ -1307,3 +1307,35 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50%, 0 100%);
   
   }
+
+  /*  */
+
+  .card-12-4-2024{
+    background:#EA7457; margin:0;
+  }
+  .card-12-4-2024 [a],.card-12-4-2024 [b]{
+   position:relative;
+    top: 60px;
+    left: 65px;
+    width: 45px;
+    height: 120px;
+    background: #B53733;
+    border: 30px #B53733 solid;
+    box-shadow: inset -15px 15px #EA7457, inset 0 -15px #EA7457, 15px 0 #EA7457, 45px 0 #B53733;
+  }
+  .card-12-4-2024 [a]:before,.card-12-4-2024 [b]:before{
+    content:'';
+    position: absolute;
+    top:-30px;
+    left: -100px;
+    width:100px;
+    height:150px;
+    background:#EA7457;
+    border-top: 30px #B53733 solid
+}
+
+.card-12-4-2024  [b]{
+    rotate: 180deg;
+    left: 230px;
+    top: -120px
+  }
