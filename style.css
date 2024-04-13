@@ -1213,108 +1213,128 @@ body {
 
 /*  */
 
-.card-8-4-2024{background: #010038; margin: 0}  
-.card-8-4-2024 div{
-  position: relative;
-  background: #857DA1;
-  width: 30px;
-  height:95px;
+.card-8-4-2024 {
+    background: #010038;
+    margin: 0
 }
-  .card-8-4-2024 [a]{
+
+.card-8-4-2024 div {
+    position: relative;
+    background: #857DA1;
+    width: 30px;
+    height: 95px;
+}
+
+.card-8-4-2024 [a] {
     left: 35px
-  }
-  .card-8-4-2024 [b]{
-  left: 185px;
-  top: -95px;
-  }
+}
 
-  .card-8-4-2024 [c]{
-  left: 335px;
+.card-8-4-2024 [b] {
+    left: 185px;
+    top: -95px;
+}
+
+.card-8-4-2024 [c] {
+    left: 335px;
     top: -190px;
-  }
+}
 
-.card-8-4-2024  [d]{
+.card-8-4-2024 [d] {
     top: -79px;
     left: 110px
-  }
-  .card-8-4-2024 [e]{
-        top: -174px;
-        left: 260px;
-  }
-.card-8-4-2024 div:after{
-  content:'';
-  position: absolute;
-  top: 90px;
-  left: -15px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background:#857DA1;
 }
-.card-8-4-2024 div:before{
-  content: '';
-  position:absolute;
-  top: -56px;
-  left: -15px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background:#857DA1;
+
+.card-8-4-2024 [e] {
+    top: -174px;
+    left: 260px;
+}
+
+.card-8-4-2024 div:after {
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: -15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #857DA1;
+}
+
+.card-8-4-2024 div:before {
+    content: '';
+    position: absolute;
+    top: -56px;
+    left: -15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #857DA1;
 }
 
 /*  */
 
-.card-9-4-2024{margin:0;background:#F48B26;height: 100%;}
-  .card-9-4-2024 div {
+.card-9-4-2024 {
+    margin: 0;
+    background: #F48B26;
+    height: 100%;
+}
+
+.card-9-4-2024 div {
     position: relative;
-    top:60px;
+    top: 60px;
     left: -30px;
     width: 100%;
     height: 120px;
-    border:30px solid #FEFF58;
+    border: 30px solid #FEFF58;
     clip-path: polygon(0 0, 35% 0, 50% 38%, 65% 0, 100% 0, 100% 100%, 0 100%);
-  }
-   .card-9-4-2024 div:after{
-    content:'';
+}
+
+.card-9-4-2024 div:after {
+    content: '';
     position: absolute;
     top: -30px;
     left: 60px;
-    width:220px;
+    width: 220px;
     height: 120px;
     border: 30px solid #FEFF58;
-  }
-  .card-9-4-2024 div:before{
-    content:'';
-    position:absolute;
+}
+
+.card-9-4-2024 div:before {
+    content: '';
+    position: absolute;
     top: -76px;
     left: 135px;
-    width:50px;
+    width: 50px;
     height: 50px;
     rotate: 45deg;
     border: 40px solid #FEFF58;
-  }
+}
 
-  /*  */
+/*  */
 
-  .card-11-4-2024 {
-    background:#DBBA30;
-  }
-  .card-11-4-2024 div {
+.card-11-4-2024 {
+    background: #DBBA30;
+}
+
+.card-11-4-2024 div {
     margin: 50px auto;
     width: 200px;
     height: 200px;
     background: #DBBA30 linear-gradient(#A95415 60px, transparent 60px, transparent 70px, #A95415 70px, #A95415 130px, transparent 130px, transparent 140px, #A95415 140px, #A95415 150px);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50%, 0 100%);
-  
-  }
 
-  /*  */
+}
 
-  .card-12-4-2024{
-    background:#EA7457; margin:0;
-  }
-  .card-12-4-2024 [a],.card-12-4-2024 [b]{
-   position:relative;
+/*  */
+
+.card-12-4-2024 {
+    background: #EA7457;
+    margin: 0;
+}
+
+.card-12-4-2024 [a],
+.card-12-4-2024 [b] {
+    position: relative;
     top: 60px;
     left: 65px;
     width: 45px;
@@ -1322,20 +1342,41 @@ body {
     background: #B53733;
     border: 30px #B53733 solid;
     box-shadow: inset -15px 15px #EA7457, inset 0 -15px #EA7457, 15px 0 #EA7457, 45px 0 #B53733;
-  }
-  .card-12-4-2024 [a]:before,.card-12-4-2024 [b]:before{
-    content:'';
+}
+
+.card-12-4-2024 [a]:before,
+.card-12-4-2024 [b]:before {
+    content: '';
     position: absolute;
-    top:-30px;
+    top: -30px;
     left: -100px;
-    width:100px;
-    height:150px;
-    background:#EA7457;
+    width: 100px;
+    height: 150px;
+    background: #EA7457;
     border-top: 30px #B53733 solid
 }
 
-.card-12-4-2024  [b]{
+.card-12-4-2024 [b] {
     rotate: 180deg;
     left: 230px;
     top: -120px
-  }
+}
+
+
+/*  */
+
+.card-13-4-2024{
+    position: relative;
+    background: #223E1F;
+}
+
+.card-13-4-2024 div {
+    rotate: 45deg;
+    position: absolute;
+    top: 95px;
+    left: 145px;
+    width: 70px;
+    height: 70px;
+    border: 20px solid #223E1F;
+    box-shadow: -20px 20px 0 0 #BFE33A, 20px -20px 0 0 #BFE33A, inset 70px 0 #BFE33A;
+}
