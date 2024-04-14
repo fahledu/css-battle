@@ -1380,3 +1380,51 @@ body {
     border: 20px solid #223E1F;
     box-shadow: -20px 20px 0 0 #BFE33A, 20px -20px 0 0 #BFE33A, inset 70px 0 #BFE33A;
 }
+
+/*  */
+
+.card-14-4-2024{background:#F7BED9;height: 100%;}
+.card-14-4-2024 [a],.card-14-4-2024 [b]{
+ position:relative;
+ width: 40px;
+ height: 80px;
+ border-radius:100px 0 0 100px;
+ background:#EC007B;
+}
+ .card-14-4-2024 [a]{
+   left:252px;
+   top:102px
+ }
+ .card-14-4-2024 [b]{
+   rotate:180deg;
+   background:#9C274E;
+   left:92px;
+   top:22px;
+ }
+ .card-14-4-2024 [a]:before,.card-14-4-2024 [b]:before,.card-14-4-2024 [a]:after,.card-14-4-2024 [b]:after{
+   content:'';
+   position:absolute;
+   width: 40px;
+   height: 80px;
+   border-radius:100px 0 0 100px;
+ }
+ .card-14-4-2024 [a]:before{
+   background:#EC007B;
+   left:-100px;
+ }
+ .card-14-4-2024 [b]:before{
+   background:#9C274E;
+   left:-100px;
+ }
+.card-14-4-2024 [a]:after{
+ rotate:90deg;
+ background:#EC007B;
+ left:-80px;
+ top:80px
+}
+ .card-14-4-2024 [b]:after{
+ rotate:90deg;
+ background:#9C274E;
+ left:-80px;
+ top:80px
+ }
