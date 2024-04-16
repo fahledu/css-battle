@@ -1445,3 +1445,38 @@ body {
  
   }
   
+  /*  */
+
+  .card-16-4-2024 {margin: 0; height: 100%;
+    background: linear-gradient(90deg, #0A6190 125px, #EFF8FE 125px, #EFF8FE 175px, #0A6190 175px, #0A6190 225px, #EFF8FE 225px, #EFF8FE 275px, #0A6190 275px); 
+  }
+    .card-16-4-2024 [a],.card-16-4-2024 [b]{
+    position: relative;
+    }
+    .card-16-4-2024 [a]:before,.card-16-4-2024 [b]:before,.card-16-4-2024 [a]:after,.card-16-4-2024 [b]:after{
+    content:'';
+    position:absolute;
+    top: 50px;
+    left: 100px
+  }
+  .card-16-4-2024 [a],.card-16-4-2024 [b],.card-16-4-2024 [a]:before,.card-16-4-2024 [b]:before,.card-16-4-2024 [a]:after,.card-16-4-2024 [b]:after{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #EFF8FE;
+  }
+  .card-16-4-2024 [a]{
+  top: 130px;
+  left:80px
+  }
+  .card-16-4-2024 [b]{
+    top:40px;
+    left:180px;
+  }
+  .card-16-4-2024 [a]:after{
+    top: -0px;
+  }
+.card-16-4-2024 [a]:after, .card-16-4-2024 [b]:after{
+  background:#0A6190;
+  left: 50px
+}
