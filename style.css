@@ -1558,3 +1558,43 @@ body {
       left: 200px;
       rotate: 180deg;
     }
+
+    /*  */
+
+    .card-19-4-2024{
+        margin:0;
+      background:#F59426;
+      }
+      .card-19-4-2024 div{
+        position: relative;
+        top:25px;
+        left: 175px;
+      }
+      .card-19-4-2024 div:before, .card-19-4-2024 div:after{
+        content:'';
+        position:absolute;
+        rotate: 90deg;
+      }
+      .card-19-4-2024 div, .card-19-4-2024 div:before{
+        width: 50px;
+        height: 250px;
+        background: #FFFFFF;
+        border-radius: 25px;
+      }
+    
+      .card-19-4-2024 div:after{
+        background:#F59426;
+        width:150px;
+        height:150px;
+        border-radius:100%;
+        left:-50px;
+        top:50px;
+      }
+      .card-19-4-2024 p{
+        position:relative;
+        top:-170px;
+        left:150px;
+        background: radial-gradient(#F59426 35%, #FFFFFF 35%);
+        width:100px;
+        height:100px
+      }
