@@ -1598,3 +1598,50 @@ body {
         width:100px;
         height:100px
       }
+
+      /*  */
+
+      .card-24-4-2024{
+        
+        background:#D5EDFC linear-gradient(90deg, #D5EDFC 45%, #06487A 45%, #06487A 55%, #D5EDFC 55%);
+      }
+      .card-24-4-2024 div {
+        width: 240px;
+        height: 100px;
+        background: #06487A;
+        box-shadow: inset 30px 30px #D5EDFC, inset -30px -30px #D5EDFC, 0 60px #D5EDFC;
+        border: 40px solid #06487A;
+      }
+
+      /*  */
+
+      .card-25-4-2024{
+        margin: 0;
+        background: #223E1F
+      }
+      .card-25-4-2024 div {
+        position: relative;
+        top: 105px;
+        left:155px;
+        width: 90px;
+        height: 1000px;
+        background: #BFE33A;
+        border-radius:50px;
+      }
+       .card-25-4-2024 div:before,.card-25-4-2024 div:after{
+             content:'';
+             position: absolute;
+            top: -100px;
+             width: 90px;
+             height: 520px;
+             background: #BFE33A;
+        border-radius:50px;
+       }
+       .card-25-4-2024 div:before {
+        left: -200px;
+          rotate: 60deg;
+      }
+      .card-25-4-2024 div:after{
+        left: 200px;
+         rotate: -60deg;
+      }
