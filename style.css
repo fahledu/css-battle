@@ -1534,114 +1534,157 @@ body {
 
 /*  */
 
-.card-18-4-2024{
-    margin:0;
+.card-18-4-2024 {
+    margin: 0;
     background: radial-gradient(50px, #BE3184 50px, #611B3F 50px);
     height: 100%;
-  }
-  
-    .card-18-4-2024 div,.card-18-4-2024 div:after{
-      width: 200px;
-      height: 100px;
-      background: #BE3184;
-      border-radius: 0 80px 0 0
-    }
-    .card-18-4-2024 div {
-      position: relative;
-      top: calc(100% - 100px);
-    }
-  
-    .card-18-4-2024 div:after{
-      content:'';
-      position: absolute;
-      top: -200px;
-      left: 200px;
-      rotate: 180deg;
-    }
+}
 
-    /*  */
+.card-18-4-2024 div,
+.card-18-4-2024 div:after {
+    width: 200px;
+    height: 100px;
+    background: #BE3184;
+    border-radius: 0 80px 0 0
+}
 
-    .card-19-4-2024{
-        margin:0;
-      background:#F59426;
-      }
-      .card-19-4-2024 div{
-        position: relative;
-        top:25px;
-        left: 175px;
-      }
-      .card-19-4-2024 div:before, .card-19-4-2024 div:after{
-        content:'';
-        position:absolute;
-        rotate: 90deg;
-      }
-      .card-19-4-2024 div, .card-19-4-2024 div:before{
-        width: 50px;
-        height: 250px;
-        background: #FFFFFF;
-        border-radius: 25px;
-      }
-    
-      .card-19-4-2024 div:after{
-        background:#F59426;
-        width:150px;
-        height:150px;
-        border-radius:100%;
-        left:-50px;
-        top:50px;
-      }
-      .card-19-4-2024 p{
-        position:relative;
-        top:-170px;
-        left:150px;
-        background: radial-gradient(#F59426 35%, #FFFFFF 35%);
-        width:100px;
-        height:100px
-      }
+.card-18-4-2024 div {
+    position: relative;
+    top: calc(100% - 100px);
+}
 
-      /*  */
+.card-18-4-2024 div:after {
+    content: '';
+    position: absolute;
+    top: -200px;
+    left: 200px;
+    rotate: 180deg;
+}
 
-      .card-24-4-2024{
-        
-        background:#D5EDFC linear-gradient(90deg, #D5EDFC 45%, #06487A 45%, #06487A 55%, #D5EDFC 55%);
-      }
-      .card-24-4-2024 div {
-        width: 240px;
-        height: 100px;
-        background: #06487A;
-        box-shadow: inset 30px 30px #D5EDFC, inset -30px -30px #D5EDFC, 0 60px #D5EDFC;
-        border: 40px solid #06487A;
-      }
+/*  */
 
-      /*  */
+.card-19-4-2024 {
+    margin: 0;
+    background: #F59426;
+}
 
-      .card-25-4-2024{
-        margin: 0;
-        background: #223E1F
-      }
-      .card-25-4-2024 div {
-        position: relative;
-        top: 105px;
-        left:155px;
-        width: 90px;
-        height: 1000px;
-        background: #BFE33A;
-        border-radius:50px;
-      }
-       .card-25-4-2024 div:before,.card-25-4-2024 div:after{
-             content:'';
-             position: absolute;
-            top: -100px;
-             width: 90px;
-             height: 520px;
-             background: #BFE33A;
-        border-radius:50px;
-       }
-       .card-25-4-2024 div:before {
-        left: -200px;
-          rotate: 60deg;
-      }
-      .card-25-4-2024 div:after{
-        left: 200px;
-         rotate: -60deg;
-      }
+.card-19-4-2024 div {
+    position: relative;
+    top: 25px;
+    left: 175px;
+}
+
+.card-19-4-2024 div:before,
+.card-19-4-2024 div:after {
+    content: '';
+    position: absolute;
+    rotate: 90deg;
+}
+
+.card-19-4-2024 div,
+.card-19-4-2024 div:before {
+    width: 50px;
+    height: 250px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+.card-19-4-2024 div:after {
+    background: #F59426;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    left: -50px;
+    top: 50px;
+}
+
+.card-19-4-2024 p {
+    position: relative;
+    top: -170px;
+    left: 150px;
+    background: radial-gradient(#F59426 35%, #FFFFFF 35%);
+    width: 100px;
+    height: 100px
+}
+
+/*  */
+
+.card-24-4-2024 {
+
+    background: #D5EDFC linear-gradient(90deg, #D5EDFC 45%, #06487A 45%, #06487A 55%, #D5EDFC 55%);
+}
+
+.card-24-4-2024 div {
+    width: 240px;
+    height: 100px;
+    background: #06487A;
+    box-shadow: inset 30px 30px #D5EDFC, inset -30px -30px #D5EDFC, 0 60px #D5EDFC;
+    border: 40px solid #06487A;
+}
+
+/*  */
+
+.card-25-4-2024 {
+    margin: 0;
+    background: #223E1F
+}
+
+.card-25-4-2024 div {
+    position: relative;
+    top: 105px;
+    left: 155px;
+    width: 90px;
+    height: 1000px;
+    background: #BFE33A;
+    border-radius: 50px;
+}
+
+.card-25-4-2024 div:before,
+.card-25-4-2024 div:after {
+    content: '';
+    position: absolute;
+    top: -100px;
+    width: 90px;
+    height: 520px;
+    background: #BFE33A;
+    border-radius: 50px;
+}
+
+.card-25-4-2024 div:before {
+    left: -200px;
+    rotate: 60deg;
+}
+
+.card-25-4-2024 div:after {
+    left: 200px;
+    rotate: -60deg;
+}
+
+/*  */
+
+.card-26-4-2024 {
+    background: #FBD6C1;
+    height: 100%;
+}
+
+.card-26-4-2024 [a] {
+    position: relative;
+    top:50px;
+    left:116px;
+    width: 151px;
+    height: 125px;
+    background: #D62022;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%)
+}
+
+.card-26-4-2024 [b] {
+    margin: 50px 116px;
+    background: #FBD6C1;
+    width: 100px;
+    height: 50px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: 26px solid #D62022;
+    border-right: 26px solid #D62022;
+    border-bottom: 26px solid #D62022;
+}
