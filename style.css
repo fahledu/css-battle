@@ -1669,8 +1669,8 @@ body {
 
 .card-26-4-2024 [a] {
     position: relative;
-    top:50px;
-    left:116px;
+    top: 50px;
+    left: 116px;
     width: 151px;
     height: 125px;
     background: #D62022;
@@ -1688,3 +1688,16 @@ body {
     border-right: 26px solid #D62022;
     border-bottom: 26px solid #D62022;
 }
+
+/*  */
+
+.card-27-4-2024 {
+    background: #81008F;
+    height: 100%;
+}
+
+.card-27-4-2024 div {
+        height: 100%;
+        background: #DBBEDF;
+        clip-path: polygon(70px 0, 90px 100%, 150px 100%, 170px 0, 230px 0, 250px 100%, 310px 100%, 330px 0)
+        }
