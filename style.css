@@ -1697,7 +1697,45 @@ body {
 }
 
 .card-27-4-2024 div {
-        height: 100%;
-        background: #DBBEDF;
-        clip-path: polygon(70px 0, 90px 100%, 150px 100%, 170px 0, 230px 0, 250px 100%, 310px 100%, 330px 0)
-        }
+    height: 100%;
+    background: #DBBEDF;
+    clip-path: polygon(70px 0, 90px 100%, 150px 100%, 170px 0, 230px 0, 250px 100%, 310px 100%, 330px 0)
+}
+
+/*  */
+
+.card-29-4-2024 {
+    background: #631E1D;
+    margin: 0;
+}
+
+.card-29-4-2024 p {
+    position: relative;
+    left: 145px;
+    rotate: 30deg;
+    width: 30px;
+    height: 250px;
+    background: #F16B4A;
+}
+
+.card-29-4-2024 p:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 250px;
+    background: #F16B4A;
+    rotate: 60deg;
+    top: 40px;
+    left: 70px
+}
+
+.card-29-4-2024 p:after {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 70px;
+    rotate: -60deg;
+    width: 30px;
+    height: 250px;
+    background: #F16B4A;
+}
