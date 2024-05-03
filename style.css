@@ -1711,7 +1711,7 @@ body {
 
 .card-29-4-2024 p {
     position: relative;
-    left: 145px;
+    left: -45px;
     rotate: 30deg;
     width: 30px;
     height: 250px;
@@ -1738,4 +1738,36 @@ body {
     width: 30px;
     height: 250px;
     background: #F16B4A;
+}
+
+/*  */
+
+.card-2-5-2024 {
+    background: #611B3F
+}
+
+.card-2-5-2024 div {
+    margin: 68px auto;
+    width: 200px;
+    height: 137px;
+    background: #BE3184;
+    clip-path: polygon(0 41.5%, 21.5% 41.5%, 100px 0, 78% 41.5%, 100% 41.5%, 80% 100%, 20% 100%);
+}
+
+
+/*  */
+
+.card-3-5-2024 {
+    background: #F59426;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-3-5-2024 div {
+    margin: 135px 70px;
+    width: 120px;
+    height: 90px;
+    border: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px -10px #F59426, 0 -60px #FFFFFF, 10px 0 #F59426, 10px -60px #F59426, 130px -60px #FFFFFF, 130px -50px #F59426, 130px 0px #FFFFFF;
 }
