@@ -1835,3 +1835,11 @@ body {
     width: 120px;
     border-top: dotted 30px #328FC1;
   }
+/*  */
+  .card-8-5-2024{
+    height: 100%;
+    padding-top: 100px;
+    box-shadow: inset 0 100px #FEFF58;
+    background: radial-gradient(circle at 100px,#FEFF58 100px,transparent 0),
+                radial-gradient(circle at 300px,#FEFF58 100px,transparent 0), #F48B26;
+  }
