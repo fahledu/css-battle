@@ -1,4 +1,5 @@
-/* ////////////////////////////////////// */
+/* /////////////////////////////////////////////////// */
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -15,16 +16,21 @@ body {
     overflow: hidden;
 }
 
-.default {
-    height: 100%;
+.flex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* ////////////////////////////////////// */
+.height {
+    height: 100%;
+}
 
-/*  */
+.overflow{
+    overflow: hidden;
+}
+
+/* /////////////////////////////////////////////////// */
 
 .card-20-03-2024 {
     background: #42230C;
@@ -200,8 +206,7 @@ body {
 /*  */
 
 .card-13-03-2024 {
-    background: #6592CF;
-    overflow: hidden;
+    background: #6592CF;    
 }
 
 .card-13-03-2024>div {
@@ -227,7 +232,6 @@ body {
 
 .card-11-03-2024 {
     background: #FAD3E5;
-    overflow: hidden;
 }
 
 .card-11-03-2024>[a],
@@ -293,7 +297,6 @@ body {
 
 .card-22-02-2024 {
     background: #0D2328;
-    overflow: hidden;
 }
 
 .card-22-02-2024>.circle {
@@ -359,7 +362,6 @@ body {
 
 .card-23-02-2024 {
     background: #3C1B4A;
-    overflow: hidden;
 }
 
 .card-23-02-2024>#a {
@@ -487,7 +489,6 @@ body {
 /*  */
 
 .card-1-3-2024 {
-    margin: 0;
     background: #2BBBF3;
 }
 
@@ -511,7 +512,6 @@ body {
 
 .card-9-3-2024 {
     background: #712B2B;
-
 }
 
 .card-9-3-2024>[x] [a],
@@ -618,10 +618,10 @@ body {
 /*  */
 
 .card-22-3-2024 {
-    display: block;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* display: block; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
     background: #FBD6C1;
 }
 
@@ -684,9 +684,9 @@ body {
 
 .card-25-3-2024 {
     background: #05476C;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
 }
 
 .card-25-3-2024 [a],
@@ -815,7 +815,7 @@ body {
 
 .card-28-3-2024 {
     background: #611B3F;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .card-28-3-2024 [a] {
@@ -841,7 +841,6 @@ body {
 
 .card-29-3-2024 {
     background: #504371;
-    margin: 0;
 }
 
 .card-29-3-2024 div,
@@ -883,20 +882,14 @@ body {
 
 .card-5-3-2024 {
     background: #611B1A;
-
 }
-
-
 
 .card-5-3-2024 div,
 .card-5-3-2024 div:after {
-    border: 40px solid red
-        /*#F16B4A;*/
-    ;
+    border: 40px solid red;
     width: 600px;
     height: 550px;
     border-radius: 50%;
-
 }
 
 .card-5-3-2024 div {
@@ -1036,7 +1029,6 @@ body {
 
 .card-30-3-2024 {
     background: #DBBEDF;
-    margin: 0;
 }
 
 .card-30-3-2024 div {
@@ -1079,9 +1071,7 @@ body {
 /*  */
 
 .card-2-4-2024 {
-    height: 100%;
     background: #90D3A6;
-    margin: 0;
 }
 
 .card-2-4-2024 [a] {
@@ -1215,7 +1205,6 @@ body {
 
 .card-8-4-2024 {
     background: #010038;
-    margin: 0
 }
 
 .card-8-4-2024 div {
@@ -1274,9 +1263,7 @@ body {
 /*  */
 
 .card-9-4-2024 {
-    margin: 0;
     background: #F48B26;
-    height: 100%;
 }
 
 .card-9-4-2024 div {
@@ -1329,7 +1316,6 @@ body {
 
 .card-12-4-2024 {
     background: #EA7457;
-    margin: 0;
 }
 
 .card-12-4-2024 [a],
@@ -1385,7 +1371,6 @@ body {
 
 .card-14-4-2024 {
     background: #F7BED9;
-    height: 100%;
 }
 
 .card-14-4-2024 [a],
@@ -1448,7 +1433,6 @@ body {
 
 .card-15-4-2024 {
     background: linear-gradient(90deg, #90D3A6 185px, #194E29 185px, #194E29 215px, #90D3A6, 215px, #90D3A6 300px);
-    margin: 0;
 }
 
 .card-15-4-2024 div {
@@ -1466,8 +1450,6 @@ body {
 /*  */
 
 .card-16-4-2024 {
-    margin: 0;
-    height: 100%;
     background: linear-gradient(90deg, #0A6190 125px, #EFF8FE 125px, #EFF8FE 175px, #0A6190 175px, #0A6190 225px, #EFF8FE 225px, #EFF8FE 275px, #0A6190 275px);
 }
 
@@ -1522,7 +1504,6 @@ body {
 
 .card-17-4-2024 {
     background: #512B2A;
-    margin: 0
 }
 
 .card-17-4-2024 div {
@@ -1535,9 +1516,7 @@ body {
 /*  */
 
 .card-18-4-2024 {
-    margin: 0;
     background: radial-gradient(50px, #BE3184 50px, #611B3F 50px);
-    height: 100%;
 }
 
 .card-18-4-2024 div,
@@ -1564,7 +1543,6 @@ body {
 /*  */
 
 .card-19-4-2024 {
-    margin: 0;
     background: #F59426;
 }
 
@@ -1610,7 +1588,6 @@ body {
 /*  */
 
 .card-24-4-2024 {
-
     background: #D5EDFC linear-gradient(90deg, #D5EDFC 45%, #06487A 45%, #06487A 55%, #D5EDFC 55%);
 }
 
@@ -1625,7 +1602,6 @@ body {
 /*  */
 
 .card-25-4-2024 {
-    margin: 0;
     background: #223E1F
 }
 
@@ -1664,7 +1640,6 @@ body {
 
 .card-26-4-2024 {
     background: #FBD6C1;
-    height: 100%;
 }
 
 .card-26-4-2024 [a] {
@@ -1693,7 +1668,6 @@ body {
 
 .card-27-4-2024 {
     background: #81008F;
-    height: 100%;
 }
 
 .card-27-4-2024 div {
@@ -1706,7 +1680,6 @@ body {
 
 .card-29-4-2024 {
     background: #631E1D;
-    margin: 0;
 }
 
 .card-29-4-2024 p {
@@ -1759,8 +1732,6 @@ body {
 
 .card-3-5-2024 {
     background: #F59426;
-    height: 100%;
-    overflow: hidden;
 }
 
 .card-3-5-2024 div {
@@ -1774,7 +1745,6 @@ body {
 
 /*  */
 .card-4-5-2024 {
-    margin: 0;
     background: radial-gradient(circle, #EA7457 32%, #B53733 32%, #B53733 40%, #EA7457 40%, #EA7457 50%, #B53733 50%)
 }
 
@@ -1788,7 +1758,6 @@ body {
 /*  */
 
 .card-6-5-2024 {
-    /* margin: 0; */
     box-shadow:
         inset 0 0 0 40px #4F77FF,
         inset 60px 0 #EFF8FE,
@@ -1816,7 +1785,6 @@ body {
 /*  */
 
 .card-7-5-2024 {
-    height: 100%;
     background: linear-gradient(#328FC1 50%,#EFF8FE 50%);
     box-shadow: inset 100px 60px 0 #0A6190, inset -100px -60px 0 #0A6190;
   }
@@ -1837,9 +1805,34 @@ body {
   }
 /*  */
   .card-8-5-2024{
-    height: 100%;
-    padding-top: 100px;
+    padding: 50px;
     box-shadow: inset 0 100px #FEFF58;
     background: radial-gradient(circle at 100px,#FEFF58 100px,transparent 0),
                 radial-gradient(circle at 300px,#FEFF58 100px,transparent 0), #F48B26;
+  }
+
+  /*  */
+
+  .card-9-5-2024{
+    background: radial-gradient(circle at 122px,#06487A 40px, transparent 0),
+                radial-gradient(circle at 262px,#06487A 40px, transparent 0), #D5EDFC;
+  }
+  .card-9-5-2024 div {
+    position: relative;
+    top: 40px;
+    left: 110px;
+    width: 120px;
+    height: 180px;
+    background: transparent;
+    border: 20px #06487A solid;
+    border-radius: 50px 50px 50px 0;
+  }
+  .card-9-5-2024 div:after{
+    content:'';
+    position: absolute;
+    background: #D5EDFC;
+    width: 78px;
+    height: 71px;
+    top: 130px;
+    left: -20px;
   }
