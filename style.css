@@ -1836,3 +1836,40 @@ body {
     top: 130px;
     left: -20px;
   }
+
+  /*  */
+
+  .card-10-5-2024{
+    background:#512B2A;
+  }
+  .card-10-5-2024 [a]{
+    position: relative;
+    top: 90px;
+    left: 100px;
+    border-radius: 20px;
+    width: 200px;
+    height: 120px;
+    background: #EA6B62;
+  }
+  .card-10-5-2024 [b]{
+    position: relative;
+    top: 90px;
+    left: 122px;
+    border-left: 40px solid #EA6B62;
+    border-bottom: 40px solid #512B2A;
+  }
+.card-10-5-2024 [c]{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  border-radius: 10px;
+  width: 100px;
+  height: 60px;
+  background: #512B2A;
+}
+  .card-10-5-2024 [d]{
+    margin: -20px 110px;
+    border-right: 60px solid #512B2A;
+    border-top: 20px solid #EA6B62;
+    border-bottom: 20px solid #EA6B62;
+  }
