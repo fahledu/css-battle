@@ -1873,3 +1873,16 @@ body {
     border-top: 20px solid #EA6B62;
     border-bottom: 20px solid #EA6B62;
   }
+
+  /*  */
+
+  .card-16-5-2024{
+    background: #6592CF;
+  }
+  .card-16-5-2024 div{
+    margin: 90px auto;
+    width: 240px;
+    height: 120px;
+    background: radial-gradient(circle, #243D83 40px, #6592CF 40px, #6592CF 60px, #243D83 60px, #243D83 100px,#6592CF 100px) #6592CF;
+    box-shadow: 0 0 0 40px #243D83;
+  }
