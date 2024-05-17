@@ -1886,3 +1886,32 @@ body {
     background: radial-gradient(circle, #243D83 40px, #6592CF 40px, #6592CF 60px, #243D83 60px, #243D83 100px,#6592CF 100px) #6592CF;
     box-shadow: 0 0 0 40px #243D83;
   }
+
+  /*  */
+  .card-17-5-2024{
+    background:#F59426;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .card-17-5-2024 div{
+    position: relative;
+    width: 50px;
+    height: 90px;
+    background: #FFF;
+    clip-path: polygon(50% 0%, 100% 45%, 65% 100%, 30% 100%, 0% 45%);
+  }
+  .card-17-5-2024 [a]{top:22px;left:168px;}
+  .card-17-5-2024 [b]{top:-30px;left:230px;rotate:60deg;}
+  .card-17-5-2024 [c]{top:-45px;left:230px;rotate:120deg}
+  .card-17-5-2024 [d]{top:-100px;left:166px;rotate:180deg}
+  .card-17-5-2024 [e]{top:-225px;left:100px;rotate:-120deg}
+  .card-17-5-2024 [f]{top:-390px;left:100px;rotate:-60deg}
+  .card-17-5-2024 [x]{
+    clip-path:unset;
+    top:-430px;
+    left:158px;
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#F59426;
+  }
