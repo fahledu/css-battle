@@ -1915,3 +1915,13 @@ body {
     border-radius:50%;
     background:#F59426;
   }
+
+  /*  */
+
+  .card-20-5-2024{background:#EFF8FE;}
+  .card-20-5-2024 div {
+    margin: 0 auto;
+    width: 320px;
+    height: 180px;
+    background: radial-gradient(circle at 50% 165%, #EFF8FE 58.7%, #4F77FF 58.5%);
+  }
