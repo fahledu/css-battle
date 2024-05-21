@@ -26,7 +26,7 @@ body {
     height: 100%;
 }
 
-.overflow{
+.overflow {
     overflow: hidden;
 }
 
@@ -206,7 +206,7 @@ body {
 /*  */
 
 .card-13-03-2024 {
-    background: #6592CF;    
+    background: #6592CF;
 }
 
 .card-13-03-2024>div {
@@ -1774,7 +1774,8 @@ body {
 }
 
 .card-6-5-2024 div {
-    border-top: solid #4F77FF 40px;;
+    border-top: solid #4F77FF 40px;
+    ;
     border-bottom: solid #4F77FF 40px;
     background: #EFF8FE;
     margin: 100px auto;
@@ -1785,39 +1786,43 @@ body {
 /*  */
 
 .card-7-5-2024 {
-    background: linear-gradient(#328FC1 50%,#EFF8FE 50%);
+    background: linear-gradient(#328FC1 50%, #EFF8FE 50%);
     box-shadow: inset 100px 60px 0 #0A6190, inset -100px -60px 0 #0A6190;
-  }
-  .card-7-5-2024 div {
+}
+
+.card-7-5-2024 div {
     position: relative;
     top: 75px;
     left: 115px;
     width: 120px;
     border-top: dotted 30px #EFF8FE;
-  }
-    .card-7-5-2024 div:after {
-    content:'';
+}
+
+.card-7-5-2024 div:after {
+    content: '';
     position: absolute;
     top: 90px;
     left: 50px;
     width: 120px;
     border-top: dotted 30px #328FC1;
-  }
+}
+
 /*  */
-  .card-8-5-2024{
+.card-8-5-2024 {
     padding: 50px;
     box-shadow: inset 0 100px #FEFF58;
-    background: radial-gradient(circle at 100px,#FEFF58 100px,transparent 0),
-                radial-gradient(circle at 300px,#FEFF58 100px,transparent 0), #F48B26;
-  }
+    background: radial-gradient(circle at 100px, #FEFF58 100px, transparent 0),
+        radial-gradient(circle at 300px, #FEFF58 100px, transparent 0), #F48B26;
+}
 
-  /*  */
+/*  */
 
-  .card-9-5-2024{
-    background: radial-gradient(circle at 122px,#06487A 40px, transparent 0),
-                radial-gradient(circle at 262px,#06487A 40px, transparent 0), #D5EDFC;
-  }
-  .card-9-5-2024 div {
+.card-9-5-2024 {
+    background: radial-gradient(circle at 122px, #06487A 40px, transparent 0),
+        radial-gradient(circle at 262px, #06487A 40px, transparent 0), #D5EDFC;
+}
+
+.card-9-5-2024 div {
     position: relative;
     top: 40px;
     left: 110px;
@@ -1826,23 +1831,25 @@ body {
     background: transparent;
     border: 20px #06487A solid;
     border-radius: 50px 50px 50px 0;
-  }
-  .card-9-5-2024 div:after{
-    content:'';
+}
+
+.card-9-5-2024 div:after {
+    content: '';
     position: absolute;
     background: #D5EDFC;
     width: 78px;
     height: 71px;
     top: 130px;
     left: -20px;
-  }
+}
 
-  /*  */
+/*  */
 
-  .card-10-5-2024{
-    background:#512B2A;
-  }
-  .card-10-5-2024 [a]{
+.card-10-5-2024 {
+    background: #512B2A;
+}
+
+.card-10-5-2024 [a] {
     position: relative;
     top: 90px;
     left: 100px;
@@ -1850,78 +1857,130 @@ body {
     width: 200px;
     height: 120px;
     background: #EA6B62;
-  }
-  .card-10-5-2024 [b]{
+}
+
+.card-10-5-2024 [b] {
     position: relative;
     top: 90px;
     left: 122px;
     border-left: 40px solid #EA6B62;
     border-bottom: 40px solid #512B2A;
-  }
-.card-10-5-2024 [c]{
-  position: relative;
-  top: 30px;
-  left: 30px;
-  border-radius: 10px;
-  width: 100px;
-  height: 60px;
-  background: #512B2A;
 }
-  .card-10-5-2024 [d]{
+
+.card-10-5-2024 [c] {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border-radius: 10px;
+    width: 100px;
+    height: 60px;
+    background: #512B2A;
+}
+
+.card-10-5-2024 [d] {
     margin: -20px 110px;
     border-right: 60px solid #512B2A;
     border-top: 20px solid #EA6B62;
     border-bottom: 20px solid #EA6B62;
-  }
+}
 
-  /*  */
+/*  */
 
-  .card-16-5-2024{
+.card-16-5-2024 {
     background: #6592CF;
-  }
-  .card-16-5-2024 div{
+}
+
+.card-16-5-2024 div {
     margin: 90px auto;
     width: 240px;
     height: 120px;
-    background: radial-gradient(circle, #243D83 40px, #6592CF 40px, #6592CF 60px, #243D83 60px, #243D83 100px,#6592CF 100px) #6592CF;
+    background: radial-gradient(circle, #243D83 40px, #6592CF 40px, #6592CF 60px, #243D83 60px, #243D83 100px, #6592CF 100px) #6592CF;
     box-shadow: 0 0 0 40px #243D83;
-  }
+}
 
-  /*  */
-  .card-17-5-2024{
-    background:#F59426;
+/*  */
+.card-17-5-2024 {
+    background: #F59426;
     padding-left: 10px;
     padding-top: 10px;
-  }
-  .card-17-5-2024 div{
+}
+
+.card-17-5-2024 div {
     position: relative;
     width: 50px;
     height: 90px;
     background: #FFF;
     clip-path: polygon(50% 0%, 100% 45%, 65% 100%, 30% 100%, 0% 45%);
-  }
-  .card-17-5-2024 [a]{top:22px;left:168px;}
-  .card-17-5-2024 [b]{top:-30px;left:230px;rotate:60deg;}
-  .card-17-5-2024 [c]{top:-45px;left:230px;rotate:120deg}
-  .card-17-5-2024 [d]{top:-100px;left:166px;rotate:180deg}
-  .card-17-5-2024 [e]{top:-225px;left:100px;rotate:-120deg}
-  .card-17-5-2024 [f]{top:-390px;left:100px;rotate:-60deg}
-  .card-17-5-2024 [x]{
-    clip-path:unset;
-    top:-430px;
-    left:158px;
-    width:65px;
-    height:65px;
-    border-radius:50%;
-    background:#F59426;
-  }
+}
 
-  /*  */
+.card-17-5-2024 [a] {
+    top: 22px;
+    left: 168px;
+}
 
-  .card-20-5-2024{background:#EFF8FE;}
-  .card-20-5-2024 div {
+.card-17-5-2024 [b] {
+    top: -30px;
+    left: 230px;
+    rotate: 60deg;
+}
+
+.card-17-5-2024 [c] {
+    top: -45px;
+    left: 230px;
+    rotate: 120deg
+}
+
+.card-17-5-2024 [d] {
+    top: -100px;
+    left: 166px;
+    rotate: 180deg
+}
+
+.card-17-5-2024 [e] {
+    top: -225px;
+    left: 100px;
+    rotate: -120deg
+}
+
+.card-17-5-2024 [f] {
+    top: -390px;
+    left: 100px;
+    rotate: -60deg
+}
+
+.card-17-5-2024 [x] {
+    clip-path: unset;
+    top: -430px;
+    left: 158px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #F59426;
+}
+
+/*  */
+
+.card-20-5-2024 {
+    background: #EFF8FE;
+}
+
+.card-20-5-2024 div {
     margin: 0 auto;
     width: 320px;
     height: 180px;
     background: radial-gradient(circle at 50% 165%, #EFF8FE 58.7%, #4F77FF 58.5%);
-  }
+}
+
+/*  */
+
+.card-21-5-2024 {
+    background: #0A6190;
+}
+
+.card-21-5-2024 div {
+    margin: 50px auto;
+    width: 250px;
+    height: 200px;
+    background: repeating-linear-gradient(#EFF8FE, #EFF8FE 20px, #0A6190 20px, #0A6190 30px);
+    clip-path: polygon(0 25%, 20% 25%, 20% 0, 80% 0, 80% 25%, 100% 25%, 100% 70%, 80% 70%, 80% 100%, 20% 100%, 20% 70%, 0 70%);
+}
