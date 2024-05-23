@@ -1984,3 +1984,37 @@ body {
     background: repeating-linear-gradient(#EFF8FE, #EFF8FE 20px, #0A6190 20px, #0A6190 30px);
     clip-path: polygon(0 25%, 20% 25%, 20% 0, 80% 0, 80% 25%, 100% 25%, 100% 70%, 80% 70%, 80% 100%, 20% 100%, 20% 70%, 0 70%);
 }
+
+/*  */
+
+.card-23-5-2024{background:#611B3F;}
+  .card-23-5-2024 div {
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    width: 84px;
+    border-left: 59px solid #611B3F;
+    border-right: 59px solid #611B3F;
+    border-bottom: 70px solid #BE3184;
+  }
+  .card-23-5-2024 div:before{
+    content: '';
+    position: absolute;
+    top: -42px;
+    left: -8px;
+    background: #BE3184;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+  }
+  .card-23-5-2024 div:after{
+    content: '';
+    position:absolute;
+    top: 70px;
+    left:-58px;
+    width: 200px;
+    height:95px;
+    background: #BE3184;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
