@@ -1987,8 +1987,11 @@ body {
 
 /*  */
 
-.card-23-5-2024{background:#611B3F;}
-  .card-23-5-2024 div {
+.card-23-5-2024 {
+    background: #611B3F;
+}
+
+.card-23-5-2024 div {
     margin: 0 auto;
     position: relative;
     top: 80px;
@@ -1996,8 +1999,9 @@ body {
     border-left: 59px solid #611B3F;
     border-right: 59px solid #611B3F;
     border-bottom: 70px solid #BE3184;
-  }
-  .card-23-5-2024 div:before{
+}
+
+.card-23-5-2024 div:before {
     content: '';
     position: absolute;
     top: -42px;
@@ -2006,15 +2010,49 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%
-  }
-  .card-23-5-2024 div:after{
+}
+
+.card-23-5-2024 div:after {
     content: '';
-    position:absolute;
+    position: absolute;
     top: 70px;
-    left:-58px;
+    left: -58px;
     width: 200px;
-    height:95px;
+    height: 95px;
     background: #BE3184;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
-  }
+}
+
+/*  */
+
+.card-24-5-2024 {
+    background: #EA6B62;
+}
+
+.card-24-5-2024 div {
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background: #512B2A;
+    box-shadow: -60px 80px #EA6B62, -40px 80px #512B2A, -60px 160px #EA6B62, -40px 160px #512B2A;
+}
+
+.card-24-5-2024 div:before,
+.card-24-5-2024 div:after {
+    content: '';
+    position: absolute;
+    background: #512B2A;
+    width: 40px;
+    height: 120px;
+    border-radius: 10px;
+    top: -15px;
+}
+
+.card-24-5-2024 div:before {
+    left: -40px;
+}
+
+.card-24-5-2024 div:after {
+    left: 100px;
+}
