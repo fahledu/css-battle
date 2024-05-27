@@ -2056,3 +2056,12 @@ body {
 .card-24-5-2024 div:after {
     left: 100px;
 }
+
+
+/*  */
+.card-27-5-2024 div{
+    width: 100px;
+    height: 100%;
+    background: #BE3184;
+    box-shadow: 40px 220px #611B3F, 40px 80px #BE3184, 40px 0 #611B3F, 80px 0 #BE3184, 120px 180px #611B3F, 120px 120px #BE3184, 120px 0 #611B3F, 160px 0 #BE3184, 200px 0 #611B3F, 300px 0 #BE3184;
+  }
