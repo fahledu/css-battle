@@ -2059,9 +2059,46 @@ body {
 
 
 /*  */
-.card-27-5-2024 div{
+.card-27-5-2024 div {
     width: 100px;
     height: 100%;
     background: #BE3184;
     box-shadow: 40px 220px #611B3F, 40px 80px #BE3184, 40px 0 #611B3F, 80px 0 #BE3184, 120px 180px #611B3F, 120px 120px #BE3184, 120px 0 #611B3F, 160px 0 #BE3184, 200px 0 #611B3F, 300px 0 #BE3184;
-  }
+}
+
+/*  */
+
+.card-29-5-2024 {
+    background: radial-gradient(circle at 31.7%, #FFFFFF 50px, transparent 0),
+        radial-gradient(circle at 68.2%, #FFFFFF 50px, transparent 0),
+        #4F77FF
+}
+
+.card-29-5-2024 [a],
+.card-29-5-2024 [b] {
+    position: relative;
+    top: 120px;
+    left: 116px;
+    background: #4F77FF;
+    border-radius: 20px;
+    rotate: 45deg;
+    width: 20px;
+    height: 60px;
+}
+
+.card-29-5-2024 [b] {
+    rotate: 90deg;
+    top: 60px;
+    left: 262px;
+}
+
+.card-29-5-2024 [a]:after,
+.card-29-5-2024 [b]:after {
+    position: absolute;
+    content: '';
+    background: #4F77FF;
+    border-radius: 20px;
+    rotate: 90deg;
+    width: 20px;
+    height: 60px;
+}
