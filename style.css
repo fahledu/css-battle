@@ -2102,3 +2102,38 @@ body {
     width: 20px;
     height: 60px;
 }
+
+/*  */
+
+.card-30-5-2024 {
+    background: #F59426;
+}
+
+.card-30-5-2024 div {
+    position: relative;
+    top: 122px;
+    left: 72px;
+    width: 200px;
+    background: #dd6b4d;
+    border-left: 20px solid #F59426;
+    border-right: 20px solid #F59426;
+    border-top: 80px solid #FFFFFF;
+}
+
+.card-30-5-2024 div:before {
+    content: '';
+    position: absolute;
+    top: -120px;
+    left: -20px;
+    width: 240px;
+    height: 40px;
+    box-shadow:
+        inset 16px 0 #FFFFFF,
+        inset 56px 0 #F59426,
+        inset 72px 0 #FFFFFF,
+        inset 112px 0 #F59426,
+        inset 128px 0 #FFFFFF,
+        inset -16px 0 #FFFFFF,
+        inset -56px 0 #F59426,
+        inset -72px 0 #FFFFFF;
+}
