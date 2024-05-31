@@ -2137,3 +2137,35 @@ body {
         inset -56px 0 #F59426,
         inset -72px 0 #FFFFFF;
 }
+
+/*  */
+
+.card-31-5-2024 {background:#6592CF;}
+.card-31-5-2024 div {
+  rotate:45deg;
+  position: relative;
+  margin: 50 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 150px;
+  border-right: 30px solid #243D83;
+  border-left: 30px solid #243D83;
+  border-top: 30px solid #557DBC;
+  border-bottom: 30px solid #243D83;
+}
+.card-31-5-2024 div:before, .card-31-5-2024 div:after{
+  content:'';
+  position:absolute;
+  background:#243D83;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.card-31-5-2024 div:before{
+  top: -5px;
+  left: 116px;
+}
+.card-31-5-2024 div:after{
+  top: -5px;
+  left: -5px;
+}
