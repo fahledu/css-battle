@@ -2169,3 +2169,13 @@ body {
   top: -5px;
   left: -5px;
 }
+
+/*  */
+
+.card-1-6-2024 div{
+    border: 100px solid #0A6190;
+    width:100px;
+    height:200px;
+    background:#328FC1;
+    box-shadow: 100px 200px #0A6190, 100px 0px #328FC1;
+  }
