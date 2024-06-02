@@ -2140,42 +2140,67 @@ body {
 
 /*  */
 
-.card-31-5-2024 {background:#6592CF;}
+.card-31-5-2024 {
+    background: #6592CF;
+}
+
 .card-31-5-2024 div {
-  rotate:45deg;
-  position: relative;
-  margin: 50 auto;
-  width: 140px;
-  height: 140px;
-  border-radius: 150px;
-  border-right: 30px solid #243D83;
-  border-left: 30px solid #243D83;
-  border-top: 30px solid #557DBC;
-  border-bottom: 30px solid #243D83;
+    rotate: 45deg;
+    position: relative;
+    margin: 50 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 150px;
+    border-right: 30px solid #243D83;
+    border-left: 30px solid #243D83;
+    border-top: 30px solid #557DBC;
+    border-bottom: 30px solid #243D83;
 }
-.card-31-5-2024 div:before, .card-31-5-2024 div:after{
-  content:'';
-  position:absolute;
-  background:#243D83;
-  width: 30px;
-  height: 30px;
-  border-radius: 50px;
+
+.card-31-5-2024 div:before,
+.card-31-5-2024 div:after {
+    content: '';
+    position: absolute;
+    background: #243D83;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
 }
-.card-31-5-2024 div:before{
-  top: -5px;
-  left: 116px;
+
+.card-31-5-2024 div:before {
+    top: -5px;
+    left: 116px;
 }
-.card-31-5-2024 div:after{
-  top: -5px;
-  left: -5px;
+
+.card-31-5-2024 div:after {
+    top: -5px;
+    left: -5px;
 }
 
 /*  */
 
-.card-1-6-2024 div{
+.card-1-6-2024 div {
     border: 100px solid #0A6190;
-    width:100px;
-    height:200px;
-    background:#328FC1;
+    width: 100px;
+    height: 200px;
+    background: #328FC1;
     box-shadow: 100px 200px #0A6190, 100px 0px #328FC1;
-  }
+}
+
+/*  */
+.card-2-6-2024 {
+    margin: 0;
+    background:
+        radial-gradient(circle at top, #4F77FF 100px, transparent 0),
+        radial-gradient(circle at 37.5% 66.6%, #4F77FF 50px, transparent 0),
+        radial-gradient(circle at 62.5% 66.6%, #4F77FF 50px, #EFF8FE 0);
+}
+
+.card-2-6-2024 div {
+    position: relative;
+    top: 65%;
+    left: 25%;
+    width: 200px;
+    height: 120px;
+    background: #4F77FF;
+}
