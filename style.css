@@ -2204,3 +2204,22 @@ body {
     height: 120px;
     background: #4F77FF;
 }
+
+/*  */
+.card-3-6-2024{
+    margin: 0;
+    background: 
+      radial-gradient(circle at 125px 25%, #EFF8FE 60px, transparent 0),
+      radial-gradient(circle at 275px 75%, #EFF8FE 60px, transparent 0),
+      radial-gradient(circle at 275px 25%, #EFF8FE 40px, transparent 0),
+      radial-gradient(circle at 125px 75%, #EFF8FE 40px, transparent 0),
+      #0A6190
+  }
+  .card-3-6-2024 div {
+    position:relative;
+    top:25%;
+    left: 31.2%;
+    width: 150px;
+    height: 150px;
+    background: #0A6190;
+  }
