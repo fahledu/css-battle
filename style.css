@@ -2249,3 +2249,20 @@ body {
         -125px -50px #FFFFFF,
         -125px -100px #FFFFFF;
 }
+
+/*  */
+.card-6-6-2024 {background:
+    radial-gradient(circle at 62px 62px, #6592CF 30px, transparent 0),
+    radial-gradient(circle at 322px 62px, #6592CF 30px, transparent 0),
+    radial-gradient(circle at 62px 222px, #6592CF 30px, transparent 0),
+    radial-gradient(circle at 322px 222px, #6592CF 30px, #243D83 0)
+    ;}
+  .card-6-6-2024 div {
+    position: relative;
+    top: 57px;
+    left: -20px;
+    width: 110%;
+    height: 150px;
+    border: 10px solid #243D83;
+    background: transparent;
+  }
