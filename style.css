@@ -2229,6 +2229,7 @@ body {
 .card-4-6-2024 {
     background: #4F77FF;
 }
+
 .card-4-6-2024 div {
     margin: 125px auto;
     width: 200px;
@@ -2251,13 +2252,15 @@ body {
 }
 
 /*  */
-.card-6-6-2024 {background:
-    radial-gradient(circle at 62px 62px, #6592CF 30px, transparent 0),
-    radial-gradient(circle at 322px 62px, #6592CF 30px, transparent 0),
-    radial-gradient(circle at 62px 222px, #6592CF 30px, transparent 0),
-    radial-gradient(circle at 322px 222px, #6592CF 30px, #243D83 0)
-    ;}
-  .card-6-6-2024 div {
+.card-6-6-2024 {
+    background:
+        radial-gradient(circle at 62px 62px, #6592CF 30px, transparent 0),
+        radial-gradient(circle at 322px 62px, #6592CF 30px, transparent 0),
+        radial-gradient(circle at 62px 222px, #6592CF 30px, transparent 0),
+        radial-gradient(circle at 322px 222px, #6592CF 30px, #243D83 0);
+}
+
+.card-6-6-2024 div {
     position: relative;
     top: 57px;
     left: -20px;
@@ -2265,4 +2268,10 @@ body {
     height: 150px;
     border: 10px solid #243D83;
     background: transparent;
-  }
+}
+
+/*  */
+
+.card-7-6-2024 {
+    background: radial-gradient(circle, #085328 3.44em, #1F7D3B 0, #1F7D3B 5.3em, #2F9947 0, #2F9947 7.2em, #49C85B 0)
+}
