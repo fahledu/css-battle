@@ -2275,3 +2275,25 @@ body {
 .card-7-6-2024 {
     background: radial-gradient(circle, #085328 3.44em, #1F7D3B 0, #1F7D3B 5.3em, #2F9947 0, #2F9947 7.2em, #49C85B 0)
 }
+
+/*  */
+.card-12-6-2024{
+    margin:0;
+    background:radial-gradient(circle, #FFFFFF 56%, #4F77FF 0);}
+    .card-12-6-2024 div {
+      position: relative;
+      top: 16.5%;
+      left: 25%;
+      width: 200px;
+      height: 200px;
+      background:radial-gradient(circle, #FFFFFF 42.5%, #4F77FF 0);}
+    
+    .card-12-6-2024 div:after{
+      content: '';
+      position:absolute;
+      top: 40%;
+      left:40%;
+      background: #4F77FF;
+      width:40px;
+      height: 40px;
+    }
