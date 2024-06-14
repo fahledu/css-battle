@@ -2310,3 +2310,30 @@ body {
       background: #FFFFFF;
       clip-path: polygon(0 41.7%, 22.7% 41.7%, 22.7% 16.7%, 38.7% 16.7%, 38.7% 0%, 61.4% 0%, 61.4% 16.7%, 77.3% 16.7%, 77.3% 41.7%, 100% 41.7%, 100% 58.3%, 77.3% 58.3%, 77.3% 83.3%, 61.3% 83.3%, 61.3% 100%, 38.6% 100%, 38.6% 83.3%, 22.7% 83.3%, 22.7% 58.3%, 0% 58.3%);
     }
+
+    /*  */
+
+    .card-14-6-2024{background:#6592CF;}
+    .card-14-6-2024 div {
+      position: relative;
+      top: 72px;
+      left: 92px;
+      width: 200px;
+      height: 80px;
+      border-radius: 40px;
+      background: 
+        radial-gradient(circle at 40px, #6592CF 20px, transparent 0),
+        radial-gradient(circle at 160px, #6592CF 20px, #243D83 0);
+    }
+    .card-14-6-2024 div:before {
+      content:'';
+      position: absolute;
+      top: 60px;
+      width: 200px;
+      height: 80px;
+      border-radius: 40px;
+      background: 
+        radial-gradient(circle at 40px, #6592CF 20px, transparent 0),
+        radial-gradient(circle at 160px, #6592CF 20px, #243D83 0);
+      
+    }
