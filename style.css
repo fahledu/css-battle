@@ -2277,63 +2277,109 @@ body {
 }
 
 /*  */
-.card-12-6-2024{
-    margin:0;
-    background:radial-gradient(circle, #FFFFFF 56%, #4F77FF 0);}
-    .card-12-6-2024 div {
-      position: relative;
-      top: 16.5%;
-      left: 25%;
-      width: 200px;
-      height: 200px;
-      background:radial-gradient(circle, #FFFFFF 42.5%, #4F77FF 0);}
-    
-    .card-12-6-2024 div:after{
-      content: '';
-      position:absolute;
-      top: 40%;
-      left:40%;
-      background: #4F77FF;
-      width:40px;
-      height: 40px;
-    }
+.card-12-6-2024 {
+    margin: 0;
+    background: radial-gradient(circle, #FFFFFF 56%, #4F77FF 0);
+}
 
-    /*  */
+.card-12-6-2024 div {
+    position: relative;
+    top: 16.5%;
+    left: 25%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #FFFFFF 42.5%, #4F77FF 0);
+}
 
-    .card-13-6-2024 {background:#F59426}
-    .card-13-6-2024 div {
-      position:relative;
-      top:22px;
-      left:82px;
-      width: 220px;
-      height: 240px;
-      background: #FFFFFF;
-      clip-path: polygon(0 41.7%, 22.7% 41.7%, 22.7% 16.7%, 38.7% 16.7%, 38.7% 0%, 61.4% 0%, 61.4% 16.7%, 77.3% 16.7%, 77.3% 41.7%, 100% 41.7%, 100% 58.3%, 77.3% 58.3%, 77.3% 83.3%, 61.3% 83.3%, 61.3% 100%, 38.6% 100%, 38.6% 83.3%, 22.7% 83.3%, 22.7% 58.3%, 0% 58.3%);
-    }
+.card-12-6-2024 div:after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background: #4F77FF;
+    width: 40px;
+    height: 40px;
+}
 
-    /*  */
+/*  */
 
-    .card-14-6-2024{background:#6592CF;}
-    .card-14-6-2024 div {
-      position: relative;
-      top: 72px;
-      left: 92px;
-      width: 200px;
-      height: 80px;
-      border-radius: 40px;
-      background: 
+.card-13-6-2024 {
+    background: #F59426
+}
+
+.card-13-6-2024 div {
+    position: relative;
+    top: 22px;
+    left: 82px;
+    width: 220px;
+    height: 240px;
+    background: #FFFFFF;
+    clip-path: polygon(0 41.7%, 22.7% 41.7%, 22.7% 16.7%, 38.7% 16.7%, 38.7% 0%, 61.4% 0%, 61.4% 16.7%, 77.3% 16.7%, 77.3% 41.7%, 100% 41.7%, 100% 58.3%, 77.3% 58.3%, 77.3% 83.3%, 61.3% 83.3%, 61.3% 100%, 38.6% 100%, 38.6% 83.3%, 22.7% 83.3%, 22.7% 58.3%, 0% 58.3%);
+}
+
+/*  */
+
+.card-14-6-2024 {
+    background: #6592CF;
+}
+
+.card-14-6-2024 div {
+    position: relative;
+    top: 72px;
+    left: 92px;
+    width: 200px;
+    height: 80px;
+    border-radius: 40px;
+    background:
         radial-gradient(circle at 40px, #6592CF 20px, transparent 0),
         radial-gradient(circle at 160px, #6592CF 20px, #243D83 0);
-    }
-    .card-14-6-2024 div:before {
-      content:'';
-      position: absolute;
-      top: 60px;
-      width: 200px;
-      height: 80px;
-      border-radius: 40px;
-      background: 
+}
+
+.card-14-6-2024 div:before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    height: 80px;
+    border-radius: 40px;
+    background:
         radial-gradient(circle at 40px, #6592CF 20px, transparent 0),
         radial-gradient(circle at 160px, #6592CF 20px, #243D83 0);
-      
-    }
+
+}
+
+/*  */
+.card-17-6-2024 {
+    background: #EFF8FE;
+}
+
+.card-17-6-2024 div {
+    position: relative;
+    top: 52px;
+    left: 57px;
+    width: 270px;
+    height: 180px;
+    background: radial-gradient(circle at 47px 132px, #EFF8FE 37.7px, transparent 0),
+        radial-gradient(circle at 222px 47px, #EFF8FE 37.5px, #4F77FF 0);
+    box-shadow: -10px 0 #EFF8FE, -30px 0 #4F77FF, 10px 0 #EFF8FE, 30px 0 #4F77FF;
+}
+
+.card-17-6-2024 div:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 165px;
+    height: 75px;
+    background: #EFF8FE;
+}
+
+.card-17-6-2024 div:after {
+    content: '';
+    position: absolute;
+    top: 95px;
+    left: 95px;
+    width: 165px;
+    height: 75px;
+    background: #EFF8FE;
+}
