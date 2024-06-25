@@ -2418,3 +2418,18 @@ body {
         -80px -240px #6592CF, -80px -180px #243D83, -80px 60px #6592CF,
         inset 0 -60px #6592CF, inset 0 -120px #243D83;
 }
+
+/*  */
+
+.card-25-6-2024{
+    margin:0;
+    background: linear-gradient(90deg, #DBBEDF 5%, transparent 5% 95%, #DBBEDF 95%),
+                linear-gradient(#81008F 6.8%, #DBBEDF 0 13.2%, #81008F 0 46.8%, #DBBEDF 0 53.5%, #81008F 0 86.7%, #DBBEDF 0 93.2%, #81008F 0);
+  }
+  .card-25-6-2024 div {
+    margin: 0 auto;
+    width: 180px;
+    height: 100%;
+    background: linear-gradient(#81008F 0 46.7%, transparent 0 53.5%, #81008F 0),
+                linear-gradient(90deg, #DBBEDF 22%, #81008F 0 78%, #DBBEDF 0);
+  }
